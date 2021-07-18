@@ -1,6 +1,6 @@
 {
   "name": "@pantocode/random-messages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I don't know what to write for the first commit",
   "main": "src/index.js",
   "scripts": {
@@ -13,8 +13,16 @@
   ],
   "author": "Andres Pantoja <andres031293@gmail.com>",
   "license": "MIT",
-  "bin":{
-    "random-msg": "./bin/global.js"
+  "bin": {
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pantoja109/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pantoja109/random-messages/issues"
+  },
+  "homepage": "https://github.com/Pantoja109/random-messages#readme"
 }
